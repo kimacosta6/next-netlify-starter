@@ -8,33 +8,6 @@ export default function Home() {
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspirational Reflections</title>
-    <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            font-family: 'Roboto', sans-serif;
-            background: #00A3CF;
-            color: #333;
-            overflow: hidden;
-            position: relative;
-        }
-        #reflectionContainer {
-            position: absolute;
-            text-align: center;
-            font-size: 1.5em;
-            max-width: 60%;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background: #ffffff;
-            opacity: 0;
-            transform: scale(0.5);
-            transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
-        }
-    </style>
       </Head>
       <main>
         <Header title="Welcome to my app!" />
