@@ -5,8 +5,6 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
      <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspirational Reflections</title>
@@ -173,9 +171,6 @@ export default function Home() {
         // Initial reflection display
         displayReflection();
     </script>  
-      <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
       </main>
       <Footer />
     </div>
